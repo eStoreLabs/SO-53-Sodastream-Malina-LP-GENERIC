@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "HurmeGeometricSans3-Bold";
+  src: local("HurmeGeometricSans3-Bold"), url("../fonts/HurmeGeometricSans3-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "HurmeGeometricSans3-Regular";
+  src: local("HurmeGeometricSans3-Regular"), url("../fonts/HurmeGeometricSans3-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "HurmeGeometricSans3-Black";
+  src: local("HurmeGeometricSans3-Black"), url("../fonts/HurmeGeometricSans3-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "HurmeGeometricSans3-Light";
+  src: local("HurmeGeometricSans3-Light"), url("../fonts/HurmeGeometricSans3-Light.woff2") format("woff2");
+}
+#es-rc #es-rc-content {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 100vw;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+#es-rc #es-rc-content * {
+  box-sizing: border-box;
+}
+#es-rc #es-rc-content h2,
+#es-rc #es-rc-content h3,
+#es-rc #es-rc-content h4,
+#es-rc #es-rc-content h5,
+#es-rc #es-rc-content h6 {
+  margin: 0;
+}
+#es-rc #es-rc-content p {
+  margin: 0;
+}
+#es-rc #es-rc-content img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-rc #es-rc-content .es-title {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #13294b;
+  text-align: center;
+}
+#es-rc #es-rc-content .es-description {
+  background: #e89ca2;
+}
+#es-rc #es-rc-content .swiper-pagination-bullet {
+  background-color: #afafaf;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+#es-rc #es-rc-content .swiper-pagination-bullet-active {
+  background-color: #bebcbc;
+}
+#es-rc #es-rc-content .es-video {
+  padding: 6% 0% 2%;
+  min-height: 600px;
+  margin-bottom: 100px;
+}
+#es-rc #es-rc-content .es-video__container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+#es-rc #es-rc-content .es-video__wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+#es-rc #es-rc-content .es-video iframe {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#es-rc #es-rc-content .es-video__iframe--desktop {
+  display: none;
+}
+#es-rc #es-rc-content .es-video__iframe--mobile {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 650px !important;
+}/*# sourceMappingURL=style.css.map */
