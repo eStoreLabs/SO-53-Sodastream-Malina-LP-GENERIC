@@ -419,6 +419,10 @@ $secondary: #002238;
       max-width: 350px;
       margin-bottom: 30px;
       margin-left: 20px;
+
+      &--desktop {
+        display: none;
+      }
     }
 
     &__subtitle {
@@ -837,6 +841,11 @@ $secondary: #002238;
 
       &__img {
         margin-left: auto;
+        display: none;
+
+        &--desktop {
+          display: block;
+        }
       }
 
       &__img-elipse {

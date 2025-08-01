@@ -335,6 +335,9 @@
   margin-bottom: 30px;
   margin-left: 20px;
 }
+#es-rc #es-rc-content .es-cross__img--desktop {
+  display: none;
+}
 #es-rc #es-rc-content .es-cross__subtitle {
   display: block;
   width: 230px;
@@ -671,6 +674,10 @@
   }
   #es-rc #es-rc-content .es-cross__img {
     margin-left: auto;
+    display: none;
+  }
+  #es-rc #es-rc-content .es-cross__img--desktop {
+    display: block;
   }
   #es-rc #es-rc-content .es-cross__img-elipse {
     display: none;
