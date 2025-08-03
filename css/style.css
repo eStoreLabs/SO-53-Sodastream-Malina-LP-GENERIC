@@ -377,6 +377,8 @@
   padding-bottom: 10px;
   background-color: #13294b;
   color: #ffffff;
+  position: relative;
+  z-index: 1;
 }
 #es-rc #es-rc-content .es-faq__title {
   padding-left: 25px;

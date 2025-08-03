@@ -469,6 +469,8 @@ $secondary: #002238;
     padding-bottom: 10px;
     background-color: $primary;
     color: $white;
+    position: relative;
+    z-index: 1;
 
     &__title {
       padding-left: 25px;
