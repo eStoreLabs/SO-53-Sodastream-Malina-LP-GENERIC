@@ -88,6 +88,7 @@
   border-radius: 40px;
   color: #ffffff;
   text-decoration: none;
+  text-align: center;
 }
 #es-rc #es-rc-content .es-features {
   background-color: #eeebe4;
@@ -625,7 +626,7 @@
     font-size: 18px;
   }
   #es-rc #es-rc-content .es-ingredients__disclaimer {
-    margin-left: 15%;
+    text-align: center;
   }
   #es-rc #es-rc-content .es-steps__subtitle {
     display: none;
@@ -734,7 +735,7 @@
     background: url(../images/description.jpg) no-repeat center center;
     background-size: cover;
     display: flex;
-    min-height: 500px;
+    min-height: 420px;
   }
   #es-rc #es-rc-content .es-description__title {
     font-size: 22px;
@@ -821,6 +822,17 @@
   #es-rc #es-rc-content .es-footer__logo {
     max-width: 250px;
   }
+  #es-rc #es-rc-content .es-description {
+    min-height: 500px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  #es-rc #es-rc-content .es-kv {
+    height: 680px;
+  }
+  #es-rc #es-rc-content .es-description {
+    min-height: 575px;
+  }
 }
 @media screen and (min-width: 1200px) {
   #es-rc #es-rc-content .es-kv {
@@ -840,10 +852,15 @@
 }
 @media screen and (min-width: 1400px) {
   #es-rc #es-rc-content .es-description {
-    min-height: 700px;
+    min-height: 800px;
   }
   #es-rc #es-rc-content .es-description__container {
     max-width: 620px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  #es-rc #es-rc-content .es-kv {
+    height: 880px;
   }
 }
 @media screen and (min-width: 1800px) {
