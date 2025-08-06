@@ -94,7 +94,7 @@ $secondary: #002238;
   }
 
   .es-kv {
-    min-height: 550px;
+    min-height: 570px;
     height: 550px;
     background: url(../images/kv-m.jpg) no-repeat center center;
     background-size: cover;
@@ -121,7 +121,7 @@ $secondary: #002238;
 
     &__link {
       position: absolute;
-      bottom: 13px;
+      bottom: -10px;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 200px;
@@ -195,7 +195,7 @@ $secondary: #002238;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      gap: 350px;
+      gap: 375px;
     }
 
     &__title {
@@ -630,10 +630,8 @@ $secondary: #002238;
     }
 
     .es-description {
-      min-height: 800px;
-
       &__container {
-        gap: 600px;
+        gap: 510px;
       }
     }
   }
@@ -653,6 +651,7 @@ $secondary: #002238;
 
       &__link {
         left: 32%;
+        bottom: 5px;
       }
     }
   }
@@ -691,7 +690,7 @@ $secondary: #002238;
 
   @media screen and (min-width: 550px) {
     .es-kv {
-      height: 950px;
+      height: 975px;
       position: relative;
       z-index: 2;
 

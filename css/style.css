@@ -53,7 +53,7 @@
   text-align: center;
 }
 #es-rc #es-rc-content .es-kv {
-  min-height: 550px;
+  min-height: 570px;
   height: 550px;
   background: url(../images/kv-m.jpg) no-repeat center center;
   background-size: cover;
@@ -77,7 +77,7 @@
 }
 #es-rc #es-rc-content .es-kv__link {
   position: absolute;
-  bottom: 13px;
+  bottom: -10px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 200px;
@@ -141,7 +141,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  gap: 350px;
+  gap: 375px;
 }
 #es-rc #es-rc-content .es-description__title {
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
@@ -511,11 +511,8 @@
   #es-rc #es-rc-content .es-kv {
     height: 650px;
   }
-  #es-rc #es-rc-content .es-description {
-    min-height: 800px;
-  }
   #es-rc #es-rc-content .es-description__container {
-    gap: 600px;
+    gap: 510px;
   }
 }
 @media screen and (min-width: 400px) {
@@ -531,6 +528,7 @@
   }
   #es-rc #es-rc-content .es-kv__link {
     left: 32%;
+    bottom: 5px;
   }
 }
 @media screen and (min-width: 500px) {
@@ -562,7 +560,7 @@
 }
 @media screen and (min-width: 550px) {
   #es-rc #es-rc-content .es-kv {
-    height: 950px;
+    height: 975px;
     position: relative;
     z-index: 2;
   }
