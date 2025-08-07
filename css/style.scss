@@ -683,7 +683,7 @@ $secondary: #002238;
       }
 
       &__subtitle {
-        font-size: 18px;
+        font-size: 16px;
       }
     }
   }
@@ -809,6 +809,10 @@ $secondary: #002238;
           display: block;
         }
       }
+    }
+
+    .es-description {
+      min-height: 340px;
     }
 
   }
@@ -939,6 +943,7 @@ $secondary: #002238;
 
         &--desktop {
           display: block;
+          font-size: 18px;
         }
       }
 
